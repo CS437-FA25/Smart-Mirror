@@ -48,7 +48,7 @@ Module.register("alert", {
 
 		if (this.config.welcome_message) {
 			const message = this.config.welcome_message === true ? this.translate("welcome") : this.config.welcome_message;
-			await this.showNotification({ title: this.translate("sysTitle"), message });
+			await this.showNotification({ title: "Welcome back" , message });
 		}
 	},
 
